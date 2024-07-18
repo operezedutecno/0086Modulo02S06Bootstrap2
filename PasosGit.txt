@@ -1,0 +1,7 @@
+- Crear repositorio en Github.
+- Enlazar el proyecto en local con el repositorio remoto.
+    - Generar la llave pública con -> ssh-keygen -t rsa (Esto se hace sólo una vez)
+    - cambiarnos al directorio donde se ubican las llaves -> cd ~/.ssh/
+    - Copiar el contenido de la llave pública. -> cat id_rsa.pub
+    - Añadir el remote en el proyecto local. -> git remote add origin git@github.com:operezedutecno/0086Modulo02S06Bootstrap2.git
+    - Subir cambios a la rama main -> git push -u origin main
